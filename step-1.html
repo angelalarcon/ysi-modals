@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Ysi Modals</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="modal-open">
+	<div class="modal-container">
+		<div class="modal">
+			<ul class="header">
+				<li class="done">
+					<span></span>
+					<div class="title">
+						Registro
+					</div>
+				</li>
+				<li class="active">
+					<span></span>
+					<div class="title">
+						Confirmar
+					</div>
+				</li>
+				<li>
+					<span></span>
+					<div class="title">
+						Sorteo
+					</div>
+				</li>
+			</ul>
+			<section class="content">
+				<div>
+					<img src="img/icon-mailbox.png">
+					<h3>
+						¡Bienvenidos a ysi...!
+					</h3>
+					<p>
+						Te hemos enviado un correo de confirmación.
+						<br>
+						Por favor accede a tu bandeja de entrada y ház click en el enlace.
+						<br>
+						<strong>¿No te ha llegado el correo?*</strong> <a href="#">Reenviar confirmación</a>
+						<br>
+						<small>*Revisa tu bandeja de correo promocional o no deseado.</small>
+					</p>
+				</div>
+			</section>
+			<section class="footer">
+				<button id="jump_alert">
+					Saltar
+				</button>
+				<button class="red" id="go_to_step2">
+					Continuar
+				</button>
+			</section>
+		</div>
+		<div class="alert-container">
+			<div class="alert jump">
+				<section class="content">
+					<div>
+						<img src="img/icon-alert.png">
+						<h3>
+							¡Ojo!
+						</h3>
+						<p>
+							Recuerda que para poder participar en el sorteo tienes que <strong>validar tu correo</strong> a través del mail que te hemos enviado.
+						</p>
+					</div>
+				</section>
+				<section class="footer">
+					<button class="red">
+						Si quiero confirmar
+					</button>
+					<a href="#">No quiero confirmar</a>
+				</section>
+			</div>
+			<div class="alert confirmation">
+				<section class="content">
+					<div>
+						<img src="img/icon-alert.png">
+						<h4>
+							¡CONFIRMACION NO REALIZADA!
+						</h4>
+						<p>
+							Por favor, accede al correo que te hemos enviado
+							y confirma tu email. 
+						</p>
+						<p>
+							<strong>¿Problemas con la confirmación del correo?</strong>
+							<br>
+							Escríbenos a <a href="#">ayuda@ysi.si</a>
+						</p>
+					</div>
+				</section>
+				<section class="footer">
+					<button class="red">
+						Confirmar
+					</button>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
