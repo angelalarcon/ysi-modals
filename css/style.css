@@ -532,3 +532,9 @@ ul.options li > input[type="radio"] + div span {
 		width: 100%;
 	}
 }
+
+@media screen and (max-height: 370px) {
+	.alert {
+		margin-top: calc(((330px - 100vh)/2) + 10px);
+	}
+}
